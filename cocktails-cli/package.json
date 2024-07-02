@@ -1,0 +1,31 @@
+{
+  "name": "cocktail-cli-test",
+  "version": "0.0.1",
+  "description": "A CLI for generating api keys for a cocktail generator service",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "prepublishOnly": "npm run build"
+  },
+  "bin": {
+    "cocktail": "./dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "commander": "^12.1.0",
+    "open": "^8.4.2",
+    "ora": "^5.4.1",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "@types/commander": "^2.12.2",
+    "@types/node": "^20.14.9",
+    "@types/openurl": "^1.0.3",
+    "@types/uuid": "^10.0.0",
+    "typescript": "^5.5.2"
+  }
+}
