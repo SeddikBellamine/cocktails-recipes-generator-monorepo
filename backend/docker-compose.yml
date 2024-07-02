@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ./
+    ports:
+      - "3000:3000"
+    environment:
+      - MONGO_URI=mongodb://cocktaildb:pwcocktail@mongo:27017/cocktail-app
+      - GOOGLE_CLIENT_ID=${GOOGLE_CLIENT_ID}
+      - GOOGLE_CLIENT_SECRET=${GOOGLE_CLIENT_SECRET}
+      - GOOGLE_CALLBACK_URL=${GOOGLE_CALLBACK_URL}
+    depends_on:
+      - mongo
+
+  mongo:
+    image: mongo:4.4
+    container_name: mongo
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: cocktaildb
+      MONGO_INITDB_ROOT_PASSWORD: pwcocktail
+    volumes:
+      - mongo-data:/data/db
+
+volumes:
+  mongo-data:
