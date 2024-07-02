@@ -58,7 +58,7 @@ The backend service will be available at `http://localhost:3000`.
 Install the CLI globally using npm:
 
 ```bash
-npm install -g cocktail-cli-test
+npm install -g cocktail-recipes-cli
 ```
 
 ### Step 2: Generate an API Key

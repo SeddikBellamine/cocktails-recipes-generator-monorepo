@@ -2,7 +2,7 @@
 
 The Cocktail CLI is a command-line tool for interacting with the Cocktail Recipe Generator backend. It allows developers to authenticate using Google OAuth, generate API keys, and manage cocktail recipes.
 
-[![npm version](https://badge.fury.io/js/cocktail-cli-test.svg)](https://www.npmjs.com/package/cocktail-cli-test)
+[![npm version](https://badge.fury.io/js/cocktail-recipes-cli.svg)](https://www.npmjs.com/package/cocktail-recipes-cli) [![npm](https://img.shields.io/npm/v/cocktail-recipes-cli.svg)](https://www.npmjs.com/package/cocktail-recipes-cli)
 
 ## Prerequisites
 
@@ -14,7 +14,7 @@ The Cocktail CLI is a command-line tool for interacting with the Cocktail Recipe
 You can install the Cocktail CLI globally using npm:
 
 ```bash
-npm install -g cocktail-cli-test
+npm install -g cocktail-recipes-cli
 ```
 
 ## IMPORTANT
