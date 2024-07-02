@@ -67,7 +67,7 @@ Ensure the backend is running, then use the CLI to authenticate and generate an 
 
 ```bash
 cocktail login
-cocktail api-key --generate--permission-addRecipe --permission-viewRecipes
+cocktail api-key --generate --permission-addRecipe --permission-viewRecipes
 ```
 
 **All the instructions on how to use the cli are in the Readme of CLI**
