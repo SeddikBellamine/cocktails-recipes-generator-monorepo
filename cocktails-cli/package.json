@@ -1,5 +1,5 @@
 {
-  "name": "cocktails-cli",
+  "name": "cocktail-recipe-cli",
   "version": "0.0.1",
   "description": "A CLI for generating api keys for a cocktail generator service",
   "main": "index.js",
